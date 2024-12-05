@@ -3582,10 +3582,6 @@ body.is-preload #header.alt .logo {
 
 }
 
-/* .upcomingEvents .colText {
-    margin-bottom: 5px; 
-} */
-
 .upcomingEvents .eventDate {
     text-align: left;
 }
@@ -3620,9 +3616,8 @@ body.is-preload #header.alt .logo {
 /* Desktop styles */
 
 .upcomingEvents .eventDateMobile,
-.colTextMobile {
+.colTextMobile, .joinUsMainButton{
 	display: none;
-	/* Hide date in content for desktop */
 }
 
 /* Mobile styling for max-width 480px */
@@ -3639,6 +3634,16 @@ body.is-preload #header.alt .logo {
 	.colTextMobile {
 		display: block;
 	}
+
+	.joinUsMainButton {
+		display: block;
+		padding-left: 1em; 
+        padding-right: 1em; 
+        max-width: 200px; 
+        margin: 0 auto; 
+	}
+
+	
 }
 
 #main {
