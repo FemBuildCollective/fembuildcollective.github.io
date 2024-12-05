@@ -3511,6 +3511,16 @@ body.is-preload #header.alt .logo {
 	box-shadow: none;
 }
 
+
+#nav ul li.joinUsButton a {
+    background-color: #f28b82; 
+    color: white;
+}
+
+#nav ul li.joinUsButton a:hover {
+    background-color: #e57373; 
+}
+
 #nav.alt {
 	position: fixed;
 	top: 0;

@@ -3557,44 +3557,32 @@ body.is-preload #header.alt .logo {
 	color: #636363 !important;
 	font-size: 100%;
 	background-color: rgba(222, 222, 222, 0.25);
-	/* Default background */
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	/* flex-direction: column;  */
-    /* align-items: flex-start; */
-
 	padding: 10px 15px;
 	border: none;
 	cursor: pointer;
 	text-align: left;
-
 }
-
-/* .upcomingEvents .colText {
-    margin-bottom: 5px; 
-} */
 
 .upcomingEvents .eventDate {
     text-align: left;
 }
 
-/* Active state background with higher specificity */
 .upcomingEvents .collapsible.active {
 	background-color: rgba(222, 222, 222, 0.5) !important;
 }
 
 .upcomingEvents .collapsible:after {
 	content: '\02795';
-	/* Unicode for "plus" */
 	font-size: 13px;
 	color: white;
 }
 
 .upcomingEvents .collapsible.active:after {
 	content: "\2796";
-	/* Unicode for "minus" */
 }
 
 .upcomingEvents .collapsibleContent {
