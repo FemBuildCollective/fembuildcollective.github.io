@@ -2570,7 +2570,9 @@ input[type="radio"]:focus+label:before {
 	/* IE10 */
 	flex: 25%;
 	max-width: 25%;
-	padding: 0 4px;
+	/* padding: 0 4px; */
+	padding-top: 0;
+	padding-bottom: 0;
 }
 
 .column img {
@@ -3579,7 +3581,7 @@ body.is-preload #header.alt .logo {
 }
 
 .upcomingEvents .eventDate {
-    text-align: left;
+	text-align: left;
 }
 
 /* Active state background with higher specificity */
@@ -3622,7 +3624,7 @@ body.is-preload #header.alt .logo {
 }
 
 #main ul li a.button:hover {
-    background-color: #e57373 !important; 
+	background-color: #e57373 !important;
 }
 
 /* Mobile styling for max-width 480px */
@@ -3642,10 +3644,10 @@ body.is-preload #header.alt .logo {
 
 	.joinUsMainButton {
 		display: block;
-		padding-left: 1em; 
-        padding-right: 1em; 
-        max-width: 200px; 
-        margin: 0 auto; 
+		padding-left: 1em;
+		padding-right: 1em;
+		max-width: 200px;
+		margin: 0 auto;
 	}
 }
 
@@ -4004,6 +4006,11 @@ body.is-preload #header.alt .logo {
 }
 
 /* Footer */
+
+#footer ul.actions {
+    justify-content: flex-start !important; /* Moves content to the left */
+}
+
 
 #footer {
 	display: -moz-flex;
